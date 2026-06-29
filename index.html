@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Generación Victoria — Periódico Digital Escolar</title>
+  <meta name="description" content="Periódico digital de la Unidad Educativa del Milenio Victoria del Portete. Noticias institucionales, vida estudiantil, deportes, cultura y más." />
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- Favicon provisional con emoji -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📰</text></svg>" />
+</head>
+<body>
+
+  <!-- TOPBAR -->
+  <div class="topbar">
+    <div class="topbar-inner">
+      <span>📍 Parroquia Victoria del Portete, Cuenca, Azuay — Ecuador</span>
+      <span>
+        <a href="https://www.facebook.com/unidadeducativadelmilenio.victoriadelportete.1/" target="_blank" rel="noopener">📘 Facebook Institucional</a>
+        &nbsp;|&nbsp; AMIE: 01H00918
+      </span>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-main">
+      <div class="logo-area">
+        <!-- Reemplaza logo.png con tu logo real -->
+        <img src="images/logo.png" alt="Logo UE Victoria del Portete"
+             onerror="this.style.display='none'" />
+        <div class="logo-text">
+          <div class="nombre-periodico">Generación Victoria</div>
+          <div class="tagline">Periódico Digital · U.E. Milenio Victoria del Portete</div>
+        </div>
+      </div>
+      <button class="hamburger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- NAVEGACIÓN -->
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html">Inicio</a>
+      <a href="secciones/noticias-institucionales.html">Institucional</a>
+      <a href="secciones/vida-estudiantil.html">Vida Estudiantil</a>
+      <a href="secciones/academico.html">Académico</a>
+      <a href="secciones/cultura-arte.html">Cultura y Arte</a>
+      <a href="secciones/deportes.html">Deportes</a>
+      <a href="secciones/medio-ambiente.html">Medio Ambiente</a>
+      <a href="secciones/salud-bienestar.html">Salud y Bienestar</a>
+      <a href="secciones/tecnologia.html">Tecnología</a>
+      <a href="secciones/opinion.html">Opinión</a>
+      <a href="secciones/reconocimientos.html">Reconocimientos</a>
+      <a href="secciones/noticias-mundo.html">🌎 Mundo</a>
+    </div>
+  </nav>
+
+  <!-- TICKER -->
+  <div class="ticker-bar">
+    <div class="ticker-inner">
+      <span class="ticker-label">🔴 Destacado</span>
+      <div class="ticker-scroll">
+        <span class="ticker-text">
+          Unidad Educativa del Milenio Victoria del Portete · 976 estudiantes · 47 docentes · Niveles: Inicial, Básica y Bachillerato · Parroquia Victoria del Portete (Irquis), Cantón Cuenca · Régimen Sierra · ¡Bienvenidos a Generación Victoria, tu periódico escolar digital!
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════ CARRUSEL ═══════════ -->
+  <section class="carousel-section">
+    <div class="carousel" aria-label="Noticias destacadas">
+      <div class="carousel-slides">
+
+        <!-- SLIDE 1 → Noticias Institucionales -->
+        <!-- Imagen: images/carousel/carousel-1.jpg -->
+        <div class="carousel-slide" data-href="secciones/noticias-institucionales.html">
+          <img src="images/carousel/carousel-1.jpg"
+               alt="Noticias Institucionales"
+               onerror="this.src=''; this.style.background='linear-gradient(135deg,#074592,#053270)'; this.style.height='480px';"
+               data-placeholder="🏫" />
+          <div class="carousel-caption">
+            <span class="seccion-tag">📋 Institucional</span>
+            <h2>Inauguración de la Unidad Educativa del Milenio Victoria del Portete</h2>
+            <p>📅 20 de octubre de 2015 · Victoria del Portete, Cuenca</p>
+          </div>
+        </div>
+
+        <!-- SLIDE 2 → Vida Estudiantil -->
+        <!-- Imagen: images/carousel/carousel-2.jpg -->
+        <div class="carousel-slide" data-href="secciones/vida-estudiantil.html">
+          <img src="images/carousel/carousel-2.jpg"
+               alt="Vida Estudiantil"
+               onerror="this.src=''; this.style.background='linear-gradient(135deg,#579f38,#3d7025)'; this.style.height='480px';"
+               data-placeholder="🎒" />
+          <div class="carousel-caption">
+            <span class="seccion-tag">🎒 Vida Estudiantil</span>
+            <h2>Nuestros estudiantes: el corazón de Generación Victoria</h2>
+            <p>📅 Año lectivo 2025–2026 · 976 estudiantes activos</p>
+          </div>
+        </div>
+
+        <!-- SLIDE 3 → Deportes -->
+        <!-- Imagen: images/carousel/carousel-3.jpg -->
+        <div class="carousel-slide" data-href="secciones/deportes.html">
+          <img src="images/carousel/carousel-3.jpg"
+               alt="Deportes"
+               onerror="this.src=''; this.style.background='linear-gradient(135deg,#dc9504,#a06800)'; this.style.height='480px';"
+               data-placeholder="⚽" />
+          <div class="carousel-caption">
+            <span class="seccion-tag">⚽ Deportes</span>
+            <h2>Competencia y disciplina: nuestros equipos deportivos en acción</h2>
+            <p>📅 Temporada 2025 · Campeonatos intercolegiales</p>
+          </div>
+        </div>
+
+        <!-- SLIDE 4 → Cultura y Arte -->
+        <!-- Imagen: images/carousel/carousel-4.jpg -->
+        <div class="carousel-slide" data-href="secciones/cultura-arte.html">
+          <img src="images/carousel/carousel-4.jpg"
+               alt="Cultura y Arte"
+               onerror="this.src=''; this.style.background='linear-gradient(135deg,#7a3fa0,#5b2d7a)'; this.style.height='480px';"
+               data-placeholder="🎨" />
+          <div class="carousel-caption">
+            <span class="seccion-tag">🎨 Cultura y Arte</span>
+            <h2>Creatividad sin límites: expresiones artísticas de nuestra comunidad</h2>
+            <p>📅 Muestras culturales · Poesía, danza y más</p>
+          </div>
+        </div>
+
+      </div><!-- /slides -->
+
+      <button class="carousel-btn prev" aria-label="Anterior">&#8249;</button>
+      <button class="carousel-btn next" aria-label="Siguiente">&#8250;</button>
+      <div class="carousel-dots">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ CONTENIDO PRINCIPAL ═══════════ -->
+  <div class="main-wrapper">
+    <main>
+
+      <!-- ── NOTICIAS INSTITUCIONALES ── -->
+      <h2 class="section-title">
+        <span class="icon">📋</span> Noticias Institucionales
+        <a href="secciones/noticias-institucionales.html">Ver todas →</a>
+      </h2>
+      <div class="news-grid featured">
+
+        <!-- Noticia destacada -->
+        <!-- Imagen: images/noticias-institucionales/noticia-inst-01-img1.jpg -->
+        <div class="news-card featured-card" onclick="window.location='secciones/noticias-institucionales.html'">
+          <img class="card-img img-placeholder"
+               src="images/noticias-institucionales/noticia-inst-01-img1.jpg"
+               alt="Inauguración UEM"
+               onerror="this.outerHTML='<div class=\'card-img img-placeholder\' style=\'height:260px;font-size:3rem;\'>🏫</div>'" />
+          <div class="card-body">
+            <span class="card-tag tag-institucional">Institucional</span>
+            <h3>Inauguración de la Unidad Educativa del Milenio Victoria del Portete</h3>
+            <p>Con una inversión de más de 6,8 millones de dólares, la parroquia Victoria del Portete celebró la apertura de su nueva institución educativa. La UEM agrupa a 13 escuelas del sector, cuenta con 30 aulas, laboratorios de física, química, ciencias y tecnología.</p>
+            <div class="card-meta">
+              <span class="autor">✍️ Redacción GV</span>
+              <span>📅 20 oct. 2015</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Noticia secundaria -->
+        <!-- Imagen: images/noticias-institucionales/noticia-inst-02-img1.jpg -->
+        <div class="news-card" onclick="window.location='secciones/noticias-institucionales.html'">
+          <img class="card-img"
+               src="images/noticias-institucionales/noticia-inst-02-img1.jpg"
+               alt="Datos institución"
+               onerror="this.outerHTML='<div class=\'card-img img-placeholder\' style=\'height:190px;font-size:2.5rem;\'>📊</div>'" />
+          <div class="card-body">
+            <span class="card-tag tag-institucional">Institucional</span>
+            <h3>Nuestra institución hoy: 976 estudiantes y 47 docentes</h3>
+            <p>Año lectivo 2025–2026. La UEM atiende desde Educación Inicial hasta Bachillerato en jornadas matutina y vespertina.</p>
+            <div class="card-meta">
+              <span class="autor">✍️ Redacción GV</span>
+              <span>📅 2025</span>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /news-grid featured -->
+
+      <hr class="divider" />
+
+      <!-- ── VIDA ESTUDIANTIL ── -->
+      <h2 class="section-title">
+        <span class="icon">🎒</span> Vida Estudiantil
+        <a href="secciones/vida-estudiantil.html">Ver todas →</a>
+      </h2>
+      <div class="news-grid">
+        <!-- Imagen: images/vida-estudiantil/noticia-vest-01-img1.jpg -->
+        <div class="news-card" onclick="window.location='secciones/vida-estudiantil.html'">
+          <img class="card-img"
+               src="images/vida-estudiantil/noticia-vest-01-img1.jpg"
+               alt="Clubes escolares"
+               onerror="this.outerHTML='<div class=\'card-img img-placeholder\' style=\'height:190px;font-size:2.5rem;\'>🌟</div>'" />
+          <div class="card-body">
+            <span class="card-tag tag-estudiantil">Vida Estudiantil</span>
+            <h3>Clubes escolares: espacios de aprendizaje y talento</h3>
+            <p>Los clubes de la institución reúnen a estudiantes apasionados por la ciencia, el arte, el deporte y la tecnología. ¡Descubre cómo participar!</p>
+            <div class="card-meta">
+              <span class="autor">✍️ Redacción GV</span>
+              <span>📅 2025</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Imagen: images/vida-estudiantil/noticia-vest-02-img1.jpg -->
+        <div class="news-card" onclick="window.location='secciones/vida-estudiantil.html'">
+          <img class="card-img"
+               src="images/vida-estudiantil/noticia-vest-02-img1.jpg"
+               alt="Participación en concursos"
+               onerror="this.outerHTML='<div class=\'card-img img-placeholder\' style=\'height:190px;font-size:2.5rem;\'>🏆</div>'" />
+          <div class="card-body">
+            <span class="card-tag tag-estudiantil">Concursos</span>
+            <h3>Participación en concursos intercolegiales 2025</h3>
+            <p>Nuestros estudiantes representaron a la institución con orgullo en diversas competencias académicas y culturales a nivel cantonal y provincial.</p>
+            <div class="card-meta">
+              <span class="autor">✍️ Redacción GV</span>
+              <span>📅 2025</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="divider" />
+
+      <!-- ── DEPORTES ── -->
+      <h2 class="section-title">
+        <span class="icon">⚽</span> Deportes
+        <a href="secciones/deportes.html">Ver todas →</a>
+      </h2>
+      <div class="news-grid">
+        <!-- Imagen: images/deportes/noticia-dep-01-img1.jpg -->
+        <div class="news-card" onclick="window.location='secciones/deportes.html'">
+          <img class="card-img"
+               src="images/deportes/noticia-dep-01-img1.jpg"
+               alt="Equipos deportivos"
+               onerror="this.outerHTML='<div class=\'card-img img-placeholder\' style=\'height:190px;font-size:2.5rem;\'>⚽</div>'" />
+          <div class="card-body">
+            <span class="card-tag tag-deportes">Deportes</span>
+            <h3>Nuestros equipos deportivos — temporada 2025</h3>
+            <p>Fútbol, básquet y atletismo: los equipos de la UEM Victoria del Portete se preparan para una nueva temporada de competencias.</p>
+            <div class="card-meta">
+              <span class="autor">✍️ Redacción GV</span>
+              <span>📅 2025</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Imagen: images/deportes/noticia-dep-02-img1.jpg -->
+        <div class="news-card" onclick="window.location='secciones/deportes.html'">
+          <img class="card-img"
+               src="images/deportes/noticia-dep-02-img1.jpg"
+               alt="Actividad física"
+               onerror="this.outerHTML='<div class=\'card-img img-placeholder\' style=\'height:190px;font-size:2.5rem;\'>🏃</div>'" />
+          <div class="card-body">
+            <span class="card-tag tag-deportes">Bienestar</span>
+            <h3>Consejos de actividad física para estudiantes</h3>
+            <p>El movimiento es salud. Te compartimos rutinas y consejos de nuestros docentes de Cultura Física para mantenerte activo durante el año escolar.</p>
+            <div class="card-meta">
+              <span class="autor">✍️ Dpto. Educación Física</span>
+              <span>📅 2025</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="divider" />
+
+      <!-- ── ACADÉMICO ── -->
+      <h2 class="section-title">
+        <span class="icon">📚</span> Académico
+        <a href="secciones/academico.html">Ver todas →</a>
+      </h2>
+      <div class="news-grid">
+        <!-- Imagen: images/academico/noticia-acad-01-img1.jpg -->
+        <div class="news-card" onclick="window.location='secciones/academico.html'">
+          <img class="card-img"
+               src="images/academico/noticia-acad-01-img1.jpg"
+               alt="Ciencia y tecnología"
+               onerror="this.outerHTML='<div class=\'card-img img-placeholder\' style=\'height:190px;font-size:2.5rem;\'>🔬</div>'" />
+          <div class="card-body">
+            <span class="card-tag tag-academico">Ciencia</span>
+            <h3>Laboratorios de la UEM: donde la ciencia cobra vida</h3>
+            <p>La institución cuenta con laboratorios de física, química y ciencias naturales completamente equipados para potenciar el aprendizaje experimental.</p>
+            <div class="card-meta">
+              <span class="autor">✍️ Dpto. Académico</span>
+              <span>📅 2025</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Imagen: images/academico/noticia-acad-02-img1.jpg -->
+        <div class="news-card" onclick="window.location='secciones/academico.html'">
+          <img class="card-img"
+               src="images/academico/noticia-acad-02-img1.jpg"
+               alt="Inglés en la UEM"
+               onerror="this.outerHTML='<div class=\'card-img img-placeholder\' style=\'height:190px;font-size:2.5rem;\'>🌐</div>'" />
+          <div class="card-body">
+            <span class="card-tag tag-academico">Idiomas</span>
+            <h3>Enseñanza del inglés: formando ciudadanos globales</h3>
+            <p>Gracias al programa "Go Teacher", nuestros docentes de inglés se capacitaron en Kansas University. El idioma es una puerta al mundo.</p>
+            <div class="card-meta">
+              <span class="autor">✍️ Dpto. Idiomas</span>
+              <span>📅 2025</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main><!-- /main -->
+
+    <!-- ═══════════ SIDEBAR ═══════════ -->
+    <aside class="sidebar">
+
+      <!-- Widget: Reconocimientos -->
+      <div class="widget">
+        <div class="widget-header gold">🏅 Reconocimientos</div>
+        <div class="widget-body">
+          <div class="reconocimiento-item">
+            <div class="reco-avatar">⭐</div>
+            <div class="reco-text">
+              <h4>Estudiante del mes</h4>
+              <p>Por definir</p>
+              <span>Agregar nombre del estudiante</span>
+            </div>
+          </div>
+          <div class="reconocimiento-item">
+            <div class="reco-avatar">👨‍🏫</div>
+            <div class="reco-text">
+              <h4>Docente destacado</h4>
+              <p>Por definir</p>
+              <span>Agregar nombre del docente</span>
+            </div>
+          </div>
+          <div style="margin-top:12px; text-align:right;">
+            <a href="secciones/reconocimientos.html" style="font-size:0.78rem;color:#074592;font-weight:600;">Ver todos →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Widget: Datos de la institución -->
+      <div class="widget">
+        <div class="widget-header">🏫 Nuestra Institución</div>
+        <div class="widget-body">
+          <div class="inst-stat"><span class="label">Código AMIE</span><span class="value">01H00918</span></div>
+          <div class="inst-stat"><span class="label">Estudiantes</span><span class="value">976</span></div>
+          <div class="inst-stat"><span class="label">Docentes</span><span class="value">47</span></div>
+          <div class="inst-stat"><span class="label">Niveles</span><span class="value">Inicial · EGB · Bach.</span></div>
+          <div class="inst-stat"><span class="label">Jornada</span><span class="value">Matutina y Vespertina</span></div>
+          <div class="inst-stat"><span class="label">Área</span><span class="value">Rural – Zona 6</span></div>
+          <div class="inst-stat"><span class="label">Parroquia</span><span class="value">Victoria del Portete</span></div>
+        </div>
+      </div>
+
+      <!-- Widget: Secciones -->
+      <div class="widget">
+        <div class="widget-header verde">📂 Secciones</div>
+        <div class="widget-body">
+          <ul class="cat-list">
+            <li><a href="secciones/noticias-institucionales.html">📋 Noticias Institucionales <span class="cat-count">2</span></a></li>
+            <li><a href="secciones/vida-estudiantil.html">🎒 Vida Estudiantil <span class="cat-count">2</span></a></li>
+            <li><a href="secciones/academico.html">📚 Académico <span class="cat-count">2</span></a></li>
+            <li><a href="secciones/cultura-arte.html">🎨 Cultura y Arte <span class="cat-count">2</span></a></li>
+            <li><a href="secciones/deportes.html">⚽ Deportes <span class="cat-count">2</span></a></li>
+            <li><a href="secciones/medio-ambiente.html">🌿 Medio Ambiente <span class="cat-count">2</span></a></li>
+            <li><a href="secciones/salud-bienestar.html">💚 Salud y Bienestar <span class="cat-count">2</span></a></li>
+            <li><a href="secciones/tecnologia.html">💻 Tecnología <span class="cat-count">2</span></a></li>
+            <li><a href="secciones/opinion.html">💬 Opinión <span class="cat-count">2</span></a></li>
+            <li><a href="secciones/reconocimientos.html">🏅 Reconocimientos <span class="cat-count">2</span></a></li>
+            <li><a href="secciones/noticias-mundo.html">🌎 Noticias por el Mundo <span class="cat-count">2</span></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Widget: Redes Sociales -->
+      <div class="widget">
+        <div class="widget-header">📱 Síguenos</div>
+        <div class="widget-body">
+          <div class="social-links">
+            <a href="https://www.facebook.com/unidadeducativadelmilenio.victoriadelportete.1/"
+               target="_blank" rel="noopener" class="social-link facebook">
+              📘 Facebook Institucional
+            </a>
+          </div>
+          <p style="font-size:0.75rem;color:#aaa;margin-top:12px;line-height:1.5;">
+            Contacto: <strong style="color:#074592;">(+593) 095 966 5893</strong>
+          </p>
+        </div>
+      </div>
+
+    </aside><!-- /sidebar -->
+
+  </div><!-- /main-wrapper -->
+
+  <!-- ═══════════ NOTICIAS POR EL MUNDO ═══════════ -->
+  <div class="full-section">
+    <h2 class="section-title">
+      <span class="icon">🌎</span> Noticias por el Mundo
+      <a href="secciones/noticias-mundo.html">Ver todas →</a>
+    </h2>
+    <div class="mundo-grid">
+      <!-- Imagen: images/noticias-mundo/noticia-mundo-01-img1.jpg -->
+      <div class="news-card" onclick="window.location='secciones/noticias-mundo.html'">
+        <img class="card-img"
+             src="images/noticias-mundo/noticia-mundo-01-img1.jpg"
+             alt="Noticia mundial 1"
+             onerror="this.outerHTML='<div class=\'card-img img-placeholder\' style=\'height:190px;font-size:2.5rem;\'>🌍</div>'" />
+        <div class="card-body">
+          <span class="card-tag tag-mundo">Mundo</span>
+          <h3>Innovaciones educativas que transforman el planeta</h3>
+          <p>Tecnología, metodologías activas y nuevas formas de aprender están cambiando las aulas alrededor del mundo.</p>
+          <div class="card-meta">
+            <span class="autor">✍️ Redacción GV</span>
+            <span>📅 2025</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Imagen: images/noticias-mundo/noticia-mundo-02-img1.jpg -->
+      <div class="news-card" onclick="window.location='secciones/noticias-mundo.html'">
+        <img class="card-img"
+             src="images/noticias-mundo/noticia-mundo-02-img1.jpg"
+             alt="Noticia mundial 2"
+             onerror="this.outerHTML='<div class=\'card-img img-placeholder\' style=\'height:190px;font-size:2.5rem;\'>🔬</div>'" />
+        <div class="card-body">
+          <span class="card-tag tag-mundo">Ciencia</span>
+          <h3>Los avances científicos más importantes del 2025</h3>
+          <p>Desde inteligencia artificial hasta exploración espacial, el mundo de la ciencia sigue sorprendiendo con descubrimientos extraordinarios.</p>
+          <div class="card-meta">
+            <span class="autor">✍️ Redacción GV</span>
+            <span>📅 2025</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Imagen: images/noticias-mundo/noticia-mundo-03-img1.jpg -->
+      <div class="news-card" onclick="window.location='secciones/noticias-mundo.html'">
+        <img class="card-img"
+             src="images/noticias-mundo/noticia-mundo-03-img1.jpg"
+             alt="Noticia mundial 3"
+             onerror="this.outerHTML='<div class=\'card-img img-placeholder\' style=\'height:190px;font-size:2.5rem;\'>🌱</div>'" />
+        <div class="card-body">
+          <span class="card-tag tag-ambiente">Ambiente</span>
+          <h3>Jóvenes líderes por el medio ambiente en América Latina</h3>
+          <p>Estudiantes y activistas juveniles lideran proyectos de conservación y sostenibilidad ambiental en toda la región latinoamericana.</p>
+          <div class="card-meta">
+            <span class="autor">✍️ Redacción GV</span>
+            <span>📅 2025</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="nombre">Generación Victoria</div>
+        <div class="tagline" style="color:var(--dorado);font-size:0.75rem;margin-top:4px;text-transform:uppercase;letter-spacing:1px;">Periódico Digital Escolar</div>
+        <p>El periódico digital de la <strong>Unidad Educativa del Milenio Victoria del Portete</strong>, Parroquia Victoria del Portete (Irquis), Cantón Cuenca, Azuay — Ecuador.</p>
+        <p style="margin-top:10px;"><span class="dorado">AMIE: 01H00918</span> · Zona 6 · Régimen Sierra</p>
+      </div>
+      <div>
+        <h4>Secciones</h4>
+        <ul>
+          <li><a href="secciones/noticias-institucionales.html">Noticias Institucionales</a></li>
+          <li><a href="secciones/vida-estudiantil.html">Vida Estudiantil</a></li>
+          <li><a href="secciones/academico.html">Académico</a></li>
+          <li><a href="secciones/cultura-arte.html">Cultura y Arte</a></li>
+          <li><a href="secciones/deportes.html">Deportes</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Más secciones</h4>
+        <ul>
+          <li><a href="secciones/medio-ambiente.html">Medio Ambiente</a></li>
+          <li><a href="secciones/salud-bienestar.html">Salud y Bienestar</a></li>
+          <li><a href="secciones/tecnologia.html">Tecnología</a></li>
+          <li><a href="secciones/opinion.html">Opinión</a></li>
+          <li><a href="secciones/reconocimientos.html">Reconocimientos</a></li>
+          <li><a href="secciones/noticias-mundo.html">Noticias por el Mundo</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="tel:+593959665893">📞 (593) 095 966 5893</a></li>
+          <li><a href="https://www.facebook.com/unidadeducativadelmilenio.victoriadelportete.1/" target="_blank" rel="noopener">📘 Facebook</a></li>
+          <li><a href="#">📍 Victoria del Portete, Cuenca</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="footer-year"></span> Generación Victoria · <span class="verde">UEM Victoria del Portete</span></span>
+      <span>Hecho con 💛 por estudiantes y docentes</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
